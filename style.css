@@ -1,0 +1,100 @@
+html {
+  font-family: Consolas;
+  color: white;
+  font-size: 20px;
+}
+body {
+  margin: 0;
+}
+
+#banner-container {
+  text-align: center;
+  background-color: #581845;
+  color: whitesmoke;
+  padding: 10px;
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a:any-link {
+  color: black;
+}
+
+.items:hover {
+  background-color: #581845;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+
+#section1,
+#section2,
+#section3 {
+  display: flex;
+}
+
+.half-container {
+  background-color: #581845;
+  width: 50%;
+  text-align: center;
+  justify-items: center;
+  padding: 0 20px;
+  border: 1px solid white;
+}
+
+.half-container ul {
+  text-align: center;
+  list-style: square;
+  list-style-position: inside;
+  margin-left: -65px;
+}
+.half-container a:any-link {
+  color: white;
+}
+h2 {
+  font-weight: 800;
+}
+
+.divider {
+  border: 1px solid white;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.third-container {
+  background-color: #581845;
+  width: 33%;
+  text-align: center;
+  justify-items: center;
+  padding: 0 20px;
+  border: 1px solid white;
+}
+
+#hobby-title-container h2 {
+  background-color: #581845;
+  text-align: center;
+  justify-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.label {
+  text-decoration: solid underline #812367 5px;
+}
+
+.minerals a {
+  position: relative;
+}
+.minerals a span {
+  position: absolute;
+  display: none;
+  z-index: 99;
+}
+.minerals a:hover span {
+  display: block;
+}
